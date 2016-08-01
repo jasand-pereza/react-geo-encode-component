@@ -1,6 +1,8 @@
-##Example
 
-```j
+
+##Example - using jQuery
+
+```js
 window.FPSB.initGeoComponents = () => {
   var $ = jQuery;
   let $elements = $('.geocoding-component-container');
