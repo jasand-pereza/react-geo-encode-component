@@ -19,3 +19,6 @@
   });
 })(jQuery);
 ```
+
+![Screenshot of component]()
+
