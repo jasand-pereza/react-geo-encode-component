@@ -3,10 +3,11 @@
 ##Example - using jQuery
 
 ```js
-window.FPSB.initGeoComponents = () => {
-  var $ = jQuery;
+(function($){
+  'use strict';
   let $elements = $('.geocoding-component-container');
   if(!$elements.length) return;
+  // for multiple components on a page
   $elements.each(function(){
     ReactDOM.render(
       <GeocodingComponent
@@ -16,5 +17,5 @@ window.FPSB.initGeoComponents = () => {
       $(this).parent()[0]
     );
   });
-};
+})(jQuery);
 ```
