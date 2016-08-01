@@ -20,5 +20,5 @@
 })(jQuery);
 ```
 
-![Screenshot of component]()
+![Screenshot of component](https://github.com/jasand-pereza/react-geo-encode-component/blob/master/geo-encoding-component.png)
 
